@@ -60,6 +60,7 @@ If you call this method manually, the data returned will not be saved in the `da
 >@param bufsize: buffer size, The maximum size to received data.
 >
 > @return: bytes
+
 **Examples:**
 ```python
 # 读取完整的数据到 data 中

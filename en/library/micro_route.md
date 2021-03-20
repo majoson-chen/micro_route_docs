@@ -26,6 +26,7 @@ This method is used to instantiate a `webapp` object
 > @param root_path: Specifies the folder address where static files are stored. When no response route is defined, `micro_Route` will automatically go to the folder to find the corresponding file and send it
 >
 > @return: obj
+
 **Examples:**
 ```python
 import micro_route
@@ -57,6 +58,7 @@ This method is a decorator to specify a processing route
 > @param method: the response mode for it. You can fill in `"get"`, `"post"`, `"put"`, etc
 >
 > @param auto_recv: Specifies whether automatically to read and parse the data sent by the browser. If the browser will send a large packet, it is recommended that you close it
+
 **Examples:**
 ```python
 import micro_route
