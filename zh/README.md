@@ -101,7 +101,7 @@ def check_goods (context,goods_name:str):
 
 `request` 用来获取用户的信息, 例如: url, 访问方式, 表单数据, 参数, headers 等等
 
-`response` 用来对客户的访问进行相应, 如果你不想使用 `return` 的方式简单传输文本, 你也可以使用 `response` 中自带的一些方法来进行自定义高级处理.
+`response` 用来对客户的访问进行响应, 如果你不想使用 `return` 的方式简单传输文本, 你也可以使用 `response` 中自带的一些方法来进行自定义高级处理.
 
 `session` 用来保存和操作用户的数据 (开发中)
 
@@ -111,7 +111,7 @@ def check_goods (context,goods_name:str):
 
 ## IDE 支持
 
-没有IDE支持的开发显然是很难受的, 我建议你在 VSCODE 中安装 `RT-Thread` 插件, 这个插件提供了 `micropython` 的代码提示, 亦或是你有其他的选择也可以.
+没有IDE支持的开发显然是很难受的, 我建议你在 `VSCODE` 中安装 `RT-Thread` 插件, 这个插件提供了 `micropython` 的代码提示, 亦或是你有其他的选择也可以.
 
 **切记不要把 `micro_route.py` 和 `micro_route.mpy` 放到同一个文件夹, micropython会选择性的只选择 `micro_route.py` 来执行**
 

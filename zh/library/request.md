@@ -56,7 +56,9 @@
 
 ​	例如浏览器访问 `/hello?user_name=abc`
 
-​	那么 `args` 对象就会被解析为: `{"user_name": "abc"}`
+​	那么 `args` 对象就会被解析为: 
+
+`{"user_name": "abc"}`
 
 
 

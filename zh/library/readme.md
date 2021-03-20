@@ -14,7 +14,7 @@
 
 ## request response session 的使用方法
 
-​	request response session对象在响应路由的 context 对象中获取.
+​	`request` `response` `session`对象在响应路由的 context 对象中获取.
 
 ​	**示例:**
 
@@ -32,6 +32,6 @@ def index (context):
 
 
 
-### 为什么不像 Flask Django 一样把 request response session 封装为全局对象?
+### 为什么不像 Flask Django 一样把 `request` `response` `session` 封装为全局对象?
 
-​	考虑到适用性问题, 有些开发版并不支持多线程模块, 而且像 Flask 那样把这三个对象封装成为全局对象需要涉及到内存的堆栈操作, 这在性能较低的开发版上显得有些力不从心.
+​	考虑到适用性问题, 有些开发板并不支持多线程模块, 而且像 Flask 那样把这三个对象封装成为全局对象需要涉及到内存的堆栈操作, 这在性能较低的开发版上显得有些力不从心.

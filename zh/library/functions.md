@@ -70,8 +70,6 @@ micro_route.parse_url ("hello/world")
 >>> "/hello/world"
 ```
 
-
-
 ### escape_chars (string:str)
 
 ​	本方法将会对传入的 `string` 中的特殊特殊字符串转义成普通字符串.
