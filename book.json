@@ -6,6 +6,7 @@
     "links": {
         "sidebar": {
             "GitHub": "https://github.com/Li-Lian1069",
+            "website": "https://micro-route.m-jay.cn",
             "Blog": "https://blog.m-jay.cn/"
         }
     },
@@ -19,7 +20,7 @@
     ],
     "pluginsConfig": {
         "sitemap": {
-            "hostname": "https://micro-route.m-jay.cn/"
+            "hostname": "https://micro-route.m-jay.cn/docs"
         },
         "github": {
             "url"     : "https://github.com/Li-Lian1069/micro_route"
