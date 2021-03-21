@@ -15,11 +15,7 @@ WLAN.connect ("SSID","PASSWD")
 app = micro_route ()
 @app.route ('/')
 def index (context):
-    response = context.response
-    response.send_header ()
-    while True:
-        ... # get the data
-        response.send (data)
+   return """<h1>Hello World!</h1>"""
     
 app.run ()
 ```

@@ -13,13 +13,10 @@ WLAN.connect ("SSID","PASSWD")
 app = micro_route ()
 @app.route ('/')
 def index (context):
-    response = context.response
-    response.send_header ()
-    while True:
-        ... # get the data
-        response.send (data)
+    """<h1>hello world!</h1>"""
     
 app.run ()
 ```
 
-The above code will automatically connect to WiFi and return the text **"\<h1\>Hello World!</h1\>"** when the browser accesses it.
+The above code will automatically connect to WiFi and return the text **"\<h1\>Hello World!\</h1\>"** when the browser accesses it.
+
